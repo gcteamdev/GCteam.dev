@@ -426,7 +426,6 @@ p {
 
 .heading-2 {
   font-family: Montserrat, sans-serif;
-
 }
 
 .image {
@@ -478,7 +477,9 @@ p {
   margin-bottom:5%;
 
 }
-
+.submit-2  {
+border-radius: 40px;
+}
 @media screen and (max-width: 991px) {
   .Y-video{
     margin-left: 11.5%;
