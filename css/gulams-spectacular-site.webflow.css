@@ -818,8 +818,13 @@ p {
 
 @media screen and (max-width: 479px) {
   .homepage-form {
-    margin-left: 35px;
-    width:50%;
+    position:relative;
+    margin-left: 80px;
+    padding-right: 50px;
+  
+  }
+  .get-in-touch {
+    margin-right:60px;
   }
   .button {
     margin-bottom: 25px;
@@ -944,15 +949,3 @@ p {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .youtube-video {
-    margin-left: 200px;
-    
-  }
-  .get-in-touch {
-    margin-left:60px;
-  }
-  .homepage-form {
-    margin-left:60px;
-  }
-}
