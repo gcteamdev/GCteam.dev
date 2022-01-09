@@ -829,13 +829,13 @@ p {
 @media screen and (max-width: 479px) {
   
   .Y-video {
-   margin-left:55%;
+   margin-left:58%;
   }
   .get-in-touch {
-    margin-left:55%;
+    margin-left:63.5%;
    }
    .homepage-form {
-    margin-left:65%;
+    margin-left:68%;
     margin-right: 10%;
    }
    .submit {
@@ -963,6 +963,9 @@ p {
   .div-block {
     padding-left: 0px;
   }
+  .logo{
+    margin-left:11.8%;
+  }
 }
 
-}
+
