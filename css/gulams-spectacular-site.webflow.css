@@ -638,7 +638,8 @@ p {
     width:70%;
   }
   .youtube-video {
-    margin-left: 100px;
+    margin-right:400px;
+    margin-left:150px;
   }
   .homepage-form {
     margin-left: 195px;
@@ -649,14 +650,14 @@ p {
 @media screen and (max-width: 767px) {
 
   .get-in-touch {
-    margin-left: 165px;
+    margin-left: 145px;
     width:70%;
   }
   .youtube-video {
     margin-left: 170px;
   }
   .homepage-form {
-    margin-left: 235px;
+    margin-left: 190px;
     width:50%;
   }
 
@@ -817,15 +818,7 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  .homepage-form {
-    position:relative;
-    margin-left: 80px;
-    padding-right: 50px;
   
-  }
-  .get-in-touch {
-    margin-right:60px;
-  }
   .button {
     margin-bottom: 25px;
   }
