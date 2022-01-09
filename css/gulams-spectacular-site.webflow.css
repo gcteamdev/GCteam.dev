@@ -1,5 +1,5 @@
 .w-embed-youtubevideo {
-  width: 100%;
+  width: 50%;
   position: relative;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -7,11 +7,13 @@
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-size: cover;
   background-position: 50% 50%;
+  
 }
 
 .w-embed-youtubevideo:empty {
   min-height: 75px;
   padding-bottom: 56.25%;
+  
 }
 
 body {
@@ -413,19 +415,25 @@ p {
   margin-bottom: 23px;
   padding-right: 0px;
   padding-bottom: 0px;
-  padding-left: 7px;
+  padding-left: -50px;
+  
 }
-
+.homepage-form {
+  margin-right:400px;
+}
 .form-block {
   position: relative;
-  left: 68px;
+  left: 120px;
   margin-left: 58px;
   padding-top: 27px;
   padding-left: 186px;
 }
-
+.get-in-touch {
+  margin-right: 380px;
+ }
 .heading-2 {
   font-family: Montserrat, sans-serif;
+
 }
 
 .image {
@@ -625,9 +633,34 @@ p {
     max-width: 80%;
     padding-left: 29px;
   }
+  .get-in-touch {
+    margin-left: 90px;
+    width:70%;
+  }
+  .youtube-video {
+    margin-left: 100px;
+  }
+  .homepage-form {
+    margin-left: 195px;
+    width:50%;
+  }
 }
 
 @media screen and (max-width: 767px) {
+
+  .get-in-touch {
+    margin-left: 165px;
+    width:70%;
+  }
+  .youtube-video {
+    margin-left: 170px;
+  }
+  .homepage-form {
+    margin-left: 235px;
+    width:50%;
+  }
+
+
   .button.full-width {
     position: relative;
     left: 0px;
@@ -784,6 +817,10 @@ p {
 }
 
 @media screen and (max-width: 479px) {
+  .homepage-form {
+    margin-left: 35px;
+    width:50%;
+  }
   .button {
     margin-bottom: 25px;
   }
@@ -841,14 +878,15 @@ p {
   }
 
   .form-2 {
-    left: 152px;
+    left: 100px;
     max-width: 80%;
+    
   }
 
   .form-block {
-    left: -135px;
+    left: -200px;
     margin-left: 0px;
-    padding-left: 10px;
+    padding-left: -30px;
     font-size: 20px;
   }
 
@@ -906,3 +944,15 @@ p {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .youtube-video {
+    margin-left: 200px;
+    
+  }
+  .get-in-touch {
+    margin-left:60px;
+  }
+  .homepage-form {
+    margin-left:60px;
+  }
+}
