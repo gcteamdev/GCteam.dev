@@ -1,20 +1,4 @@
-.w-embed-youtubevideo {
-  width: 60%;
-  position: relative;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
-  background-size: cover;
-  background-position: 50% 50%;
-  
-}
 
-.w-embed-youtubevideo:empty {
-  min-height: 75px;
-  padding-bottom: 56.25%;
-  
-}
 
 body {
   background-color: #edeff2;
@@ -418,19 +402,28 @@ p {
   padding-left: -50px;
   
 }
-.homepage-form {
-  margin-right:550px;
+.get-in-touch {
+  margin-right: 240px;
 }
 .form-block {
-  position: relative;
+ 
   left: 120px;
   margin-left: 58px;
   padding-top: 27px;
   padding-left: 186px;
 }
-.get-in-touch {
-  margin-right: 500px;
- }
+.homepage-form {
+  margin-right:300px;
+}
+.submit {
+  color:#2e9dff;
+  background-color: #383838;
+  box-sizing: border-box;
+  padding:5px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
 .heading-2 {
   font-family: Montserrat, sans-serif;
 
@@ -478,8 +471,21 @@ p {
   max-height: 80%;
   font-size: 20px;
 }
+.Y-video {
+  height:30%;
+  width:80%;
+  margin-top:7%;
+  margin-bottom:5%;
+
+}
 
 @media screen and (max-width: 991px) {
+  .Y-video{
+    margin-left: 11.5%;
+    margin-top:7%;
+
+  }
+
   .navigation-link {
     color: hsla(0, 0%, 100%, 0.52);
   }
@@ -637,10 +643,7 @@ p {
     margin-left: 90px;
     width:70%;
   }
-  .youtube-video {
-    margin-right:400px;
-    margin-left:150px;
-  }
+  
   .homepage-form {
     margin-left: 195px;
     width:50%;
@@ -653,14 +656,20 @@ p {
     margin-left: 145px;
     width:70%;
   }
-  .youtube-video {
-    margin-left: 170px;
+  .Y-video {
+    margin-left:25%;
+    position: static;
+  }
+  .iframe {
+    width:75%;
   }
   .homepage-form {
-    margin-left: 190px;
+    margin-left: 180px;
     width:50%;
   }
-
+  .about-us {
+    padding-right: 5%;
+  }
 
   .button.full-width {
     position: relative;
@@ -819,6 +828,19 @@ p {
 
 @media screen and (max-width: 479px) {
   
+  .Y-video {
+   margin-left:55%;
+  }
+  .get-in-touch {
+    margin-left:55%;
+   }
+   .homepage-form {
+    margin-left:65%;
+    margin-right: 10%;
+   }
+   .submit {
+     margin-top: 5%;
+   }
   .button {
     margin-bottom: 25px;
   }
@@ -877,7 +899,8 @@ p {
 
   .form-2 {
     left: 100px;
-    max-width: 80%;
+    max-width: 50%;
+  
     
   }
 
@@ -942,3 +965,4 @@ p {
   }
 }
 
+}
