@@ -655,20 +655,23 @@ border-radius: 40px;
 }
 
 @media screen and (max-width: 767px) {
-
+  .submit {
+    margin-top: 10px;
+    width:60%;
+  }
   .get-in-touch {
-    margin-left: 145px;
-    width:70%;
+    margin-left: 155px;
+    width:80%;
   }
   .Y-video {
-    margin-left:25%;
+    margin-left:20%;
     position: static;
   }
   .iframe {
     width:75%;
   }
   .homepage-form {
-    margin-left: 180px;
+    margin-left: 250px;
     width:50%;
   }
   .about-us {
@@ -844,6 +847,8 @@ border-radius: 40px;
    }
    .submit {
      margin-top: 5%;
+     border-radius: none;
+     width:128%;
    }
   .button {
     margin-bottom: 25px;
