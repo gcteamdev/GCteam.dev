@@ -420,8 +420,9 @@ p {
   background-color: #383838;
   box-sizing: border-box;
   padding:5px 5px;
-  border-radius: 5px;
+  border-radius:none;
   margin-top: 5px;
+  width:21%;
 }
 
 .heading-2 {
