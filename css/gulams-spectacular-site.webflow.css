@@ -482,13 +482,11 @@ border-radius: 40px;
 }
 .message-box {
   height:200px;
-  background-color: #face6a;
 }
 @media screen and (max-width: 991px) {
   .Y-video{
     margin-left: 11.5%;
     margin-top:7%;
-
   }
 
   .navigation-link {
