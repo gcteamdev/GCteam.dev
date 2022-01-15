@@ -847,8 +847,11 @@ border-radius: 40px;
    }
    .submit {
      margin-top: 25%;
-     border-radius: none;
-     width:130%;
+     border-radius:5px;
+     box-sizing: border-box;
+     margin-left:20px;
+    
+
    }
   .button {
     margin-bottom: 25px;
@@ -979,7 +982,7 @@ border-radius: 40px;
 
 @media screen and (max-width: 2000px) {
 .submit{
-  width:10%;
+  width:200px;
   border-radius: 5px;
 }
 
