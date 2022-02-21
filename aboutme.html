@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCteam.dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+</head>
+<body>
+ <div id="about-me-container">
+    
+
+    <div class="about-me-p">
+        <h2>Hi, I am GC!</h2><br>
+        <P class="about-p">I am a husband of a beautiful lady and father of two wonderful kids.<span></span> When the weather is right I like painting and whale watching!</P>
+        <p class="about-p">Some of my painting attempts are in slide show.</p>
+    
+    </div>
+
+
+    <div class="body-top" id="top">
+        <div class="bg-poster">
+          <div class="left-poster">
+            <img alt="" class="bg-img-properties" id="left-blured-img" />
+          </div>
+          <div class="main-poster">
+            <img alt="" id="main-img" />
+          </div>
+          <div class="right-poster">
+            <img alt="" class="bg-img-properties" id="right-blured-img" />
+          </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+  <div> <p class="about-p whale-credit">Thank you! for visiting my site.Let's connect!!</p><p class="about-p whale-credit">Whale picture-credit: https://www.pexels.com/photo/gray-whale-3329230/</p> </div> 
+
+
+
+
+<div class="page-footer">
+
+  
+          
+    <div class="footer-inner-div">
+      <div class="inner-footer">
+    
+    <!--  for company name and description -->
+        <div class="footer-items">
+          <h1>GCTeam.dev</h1>
+          <p>Enthusiastic front-end developer who writes codes, because computer is not currently responding to Spoken English.</p>
+        </div>
+    
+    <!--  for quick links  -->
+    <div class="footer-items">
+          <h3>Quick Links</h3>
+          <div class="border1"></div> <!--for the underline -->
+            <ul>
+              <a href="index.html"><li>Home</li></a>
+              <a href="contact.html"><li>Contact</li></a>
+              <a href="index.html"><li>About</li></a>
+            </ul>
+        </div>
+    
+    
+    <!--  for contact us info -->
+        <div class="footer-items">
+          <h3>Contact us</h3>
+          <div class="border1"></div>
+            <ul>
+             
+              <li><i class="fa fa-phone" aria-hidden="true"></i>(253) 266-5978</li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i>contact@gcteam.com</li>
+            </ul> 
+          
+    <!--   for social links -->
+            <div class="social-media">
+              <a href="https://www.instagram.com/gcteam.dev/" ><i > <img id="Ig-icon-footer"src="512x512-logo-27154.png"></i></a>
+              <a href="https://www.facebook.com/GCteamdev-108193831772760/"><i><img id="fb-icon"src="kindpng_1339537.png"> </i></a>
+              <a href="https://www.upwork.com/freelancers/~01218b917959767db9"><i> <img id="upwork-icon" src="1929178_upwork_icon.png">  </i></a>
+               </div> 
+        </div>
+    </div>
+      
+    <!--   Footer Bottom start  -->
+      <div class="footer-bottom">
+        Copyright &copy; GCteam.dev 2022.
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+<script>
+  function change() {
+  var img_arr = [
+    "painting1.png",
+     "GCpic.png",
+    "painting2.png",
+    "painting3.png",
+    "whale-01.png"
+  ];
+
+  var left = document.getElementById("left-blured-img");
+  var main = document.getElementById("main-img");
+  var right = document.getElementById("right-blured-img");
+
+  var index = 0;
+
+  setInterval(() => {
+    if (index < img_arr.length - 2) {
+      left.src = img_arr[index];
+      main.src = img_arr[index + 1];
+      right.src = img_arr[index + 2];
+    } else if (index == img_arr.length - 2) {
+      left.src = img_arr[index];
+      main.src = img_arr[index + 1];
+      right.src = img_arr[0];
+    } else if (index == img_arr.length - 1) {
+      left.src = img_arr[index];
+      main.src = img_arr[0];
+      right.src = img_arr[1];
+    } else if (index == img_arr.length) {
+      index = 0;
+      left.src = img_arr[index];
+      main.src = img_arr[index + 1];
+      right.src = img_arr[index + 2];
+    }
+
+    index++;
+  }, 3000);
+}
+
+change();
+
+
+
+</script>
+</html>
