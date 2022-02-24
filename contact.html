@@ -11,128 +11,57 @@
   <meta name="HandheldFriendly" content="true">
 </head>
 <body>
-  
 
-  <div class="contact-form-container">
-
-
-
-
-
-
-<div class="bg_img"></div>
-  <div class="form_wrapper">
-    <div class="form_container">
-      <div class="title_container">
-        <h2>Send a pigeon  my way!</h2>
-        
-      </div>
-      <form class="contact-page-form" action="https://submit-form.com/W4ZjptcE">
-        <div class="row clearfix">
-          <div class="col_half">
-            <label>First name</label>
-            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-              <input type="text" name="first_name" placeholder="John" required />
-            </div>
-          </div>
-          <div class="col_half">
-            <label>Last name</label>
-            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-              <input type="text" name="last_name" placeholder="Doe" />
-            </div>
-          </div>
-        </div>
-        <div class="row clearfix">
-          <div class="col_half">
-            <label>Email</label>
-            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-              <input type="email" name="email" placeholder="johndoe@gmail.com" required />
-            </div>
-          </div>
-        </div>
-        <div class="row clearfix">
-          <div>
-            <label>Comments</label>
-            <div class="textarea_field"> <span><i aria-hidden="true" class="fa fa-comment"></i></span>
-              <textarea cols="46" rows="3" name="comments"></textarea>
-            </div>
-          </div>
-        </div>
-        <input class="button" type="submit" value="Sumbit" />
-      </form>
+  <div class="navigation-header">
+      
+    <div class="header-hamburger-div">
+      <nav class="main-nav">
+        <div class="logo">GCteam.dev</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://gcteam.dev/aboutme.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://github.com/gcteamdev">GitHub</a></li>
+       </ul>
+       <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+       </div>
+    </nav>
     </div>
+    
+    
   </div>
 
 
 
-  <div class="page-footer">
-
-  
-          
-    <div class="footer-inner-div">
-      <div class="inner-footer">
-    
-    <!--  for company name and description -->
-        <div class="footer-items">
-          <h1>GCTeam.dev</h1>
-          <p>Enthusiastic front-end developer who writes codes, because computer is not currently responding to Spoken English.</p>
-        </div>
-    
-    <!--  for quick links  -->
-    <div class="footer-items">
-          <h3>Quick Links</h3>
-          <div class="border1"></div> <!--for the underline -->
-            <ul>
-              <a href="index.html"><li>Home</li></a>
-              <a href="contact.html"><li>Contact</li></a>
-              <a href="index.html"><li>About</li></a>
-            </ul>
-        </div>
-    
-    
-    <!--  for contact us info -->
-        <div class="footer-items">
-          <h3>Contact us</h3>
-          <div class="border1"></div>
-            <ul>
-             
-              <li><i class="fa fa-phone" aria-hidden="true"></i>(253) 266-5978</li>
-              <li><i class="fa fa-envelope" aria-hidden="true"></i>contact@gcteam.com</li>
-            </ul> 
-          
-    <!--   for social links -->
-            <div class="social-media">
-              <a href="https://www.instagram.com/gcteam.dev/" ><i > <img id="Ig-icon-footer"src="512x512-logo-27154.png"></i></a>
-              <a href="https://www.facebook.com/GCteamdev-108193831772760/"><i><img id="fb-icon"src="kindpng_1339537.png"> </i></a>
-              <a href="https://www.upwork.com/freelancers/~01218b917959767db9"><i> <img id="upwork-icon" src="1929178_upwork_icon.png">  </i></a>
-               </div> 
-        </div>
-    </div>
-      
-    <!--   Footer Bottom start  -->
-      <div class="footer-bottom">
-        Copyright &copy; GCteam.dev 2022.
+  <div class="wrapper">
+    <h2 class="contact-form-boxes contact-form-h2">CONTACT US</h3>
+    <form action="https://submit-form.com/W4ZjptcE" method="POST">
+      <div class="form-group">
+        <labe class="contact-form-boxes"l  for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
       </div>
-    </div>
-  
-  
-  
-  
+      <div class="form-group">
+        <label class="contact-form-boxes" for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label class="contact-form-boxes" for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Send</button>
+      </div>
+    </form>
+  </div>
+
+
 
 
   
-  
-</div>
 
-
-
-
-
-
-
-
-  
-</div>
 
 </body>
 </html>
