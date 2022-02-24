@@ -1846,7 +1846,7 @@
     user-select: none;
   }
   .wrapper {
-    z-index:30;
+    
     width: 90%;
     padding: 2rem;
     background: rgb(77, 76, 76) transparent;
