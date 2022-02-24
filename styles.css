@@ -1386,10 +1386,16 @@
     width:100%;
     height:900px;
     position:absolute;
-    margin-top:450px;
+    margin-top:350px;
+    display:flex;
+    justify-content: center;
   
   }
-  
+  @media screen and (max-width:500px) {
+     .project-4 {
+       height:50vh;
+     }
+  }
    
   
   
@@ -1487,6 +1493,14 @@
       color:white;
   }
   
+
+  @media screen and (min-width:1600px) {
+    .testimonials {
+      margin-top:2100px;
+    }
+  }
+    
+  }
   .page-footer{
     width:100%;
     height:400px;
