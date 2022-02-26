@@ -36,7 +36,7 @@
   }
   .main-nav {
     display: flex;
-    height: 8vh;
+    height: 5vh;
     justify-content: space-between;
     align-items: center;
     color: #daf8e3;
@@ -52,13 +52,13 @@
     display: flex;
     width: 40%;
     justify-content: space-around;
-    z-index:18;
+    z-index: 33;
   }
   .burger {
     display: none;
     padding: 0.5rem;
     cursor: pointer;
-    z-index: 20;
+   
   }
   .line {
     height: 2px;
@@ -98,6 +98,7 @@
 @media screen and (max-width: 600px) {
     .nav-links {
       width: 60%;
+      z-index:33;
     }
     .header-hamburger-div {
     margin-top:100px;
@@ -120,8 +121,8 @@
       position: fixed;
       top: 8vh;
       right: 0;
-      height: 92vh;
-      width: 50%;
+      height: 10vh;
+      width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
@@ -129,6 +130,7 @@
       transform: translateX(100%);
       transition: transform 1s ease;
       box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+      
     }
   }
   
@@ -798,7 +800,7 @@
   .panel.left {
     margin-left: 68px;
     position: absolute;
-    margin-top:90px;
+    margin-top:75px;
   }
   
   .panel.right {
@@ -936,19 +938,19 @@
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 1290px) {
+  @media only screen and (min-width: 992px) {
     .right, .left {
       display: block;
     }
     .panel.left {
-      margin-left:240px;
+      margin-left:-680px;
     }
     .panel {
     margin-left:330px;
     }
   
   }  
-  
+  /*
   @media only screen and (min-width: 1600px) {
     .panel.left {
         margin-left:290px;
@@ -984,7 +986,7 @@
       }
 
   }
-
+*/
 
   .project-3{
     width:100%;
@@ -1941,8 +1943,6 @@
   .wrapper{
     margin-bottom:900px;
     margin-top:600px;
+    position:fixed;
   }
-#main-nav {
-    z-index: 50;
-  }
-  
+
