@@ -18,7 +18,7 @@
     position:relative;
     margin:0;
     padding:0;
-    margin-top:200px;
+    
   }
   
   
@@ -33,6 +33,12 @@
     list-style: none;
     font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     z-index: 22;
+    display: block;
+    justify-content: center;
+    position:fixed;
+    width:100%;
+    height:10vh;
+    margin-bottom:520px;
   }
   .main-nav {
     display: flex;
@@ -50,7 +56,7 @@
   }
   .nav-links {
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-around;
     z-index: 33;
   }
@@ -121,7 +127,7 @@
       position: fixed;
       top: 8vh;
       right: 0;
-      height: 10vh;
+      height: 30vh;
       width: 100%;
       flex-direction: column;
       align-items: center;
@@ -133,7 +139,11 @@
       
     }
   }
-  
+  @media screen and (min-width: 820px) {
+    .header-hamburger-div {
+      margin-bottom:540px;
+    }
+  }
  
 
   
@@ -142,23 +152,24 @@
     height:900px;
     width:100vw;
     z-index:9;
-    position:relative;
+    margin-top:200px;
+    
   }
   
   .mountain{
     z-index:9;
     width:100%;
-   
+    position:fixed;
   }
   .moon {
-    border-radius: 50%; 
+    border-radius: 100%; 
     left: calc(60% - 10vmin);
     top: 100%;
     transform: translate3d(0, 0, 0);
     animation: rise 85s infinite;
-    z-index:3;
-    margin-top:-580px;
-  
+    z-index:-1;
+    position:fixed;
+    margin-top: -400px;
     }
     
     @keyframes rise {
@@ -177,18 +188,19 @@
       }
     }
     
-  
-    @media screen and (max-width: 450px) {
-      .moon{
-        margin-top:-500px;
-      }
-    }
-  
+  @media screen and (max-width:820px) {
+   .moon {margin-top: -540px;
+  }
+} 
+  @media screen and (min-width:820px) {
+    .moon {margin-top: -740px;
+  } 
+} 
   .hero-container{
     width:100%;
     height:400px;
     position: relative;
-    margin-top:-300px;;
+    margin-top:-100px;
    
   }
   .blob {
@@ -399,10 +411,13 @@
   
   .navigation-header{
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      position:fixed; 
       width:100%;
-      height:100px;
+      height:300px;
       margin-bottom:900px;
+      display:flex;
+      justify-content: center;
+      position: fixed;
+      z-index:0;
   }
   .navigation-header svg {
     display: block;
@@ -950,43 +965,9 @@
     }
   
   }  
-  /*
-  @media only screen and (min-width: 1600px) {
-    .panel.left {
-        margin-left:290px;
-        margin-top:294px;
-      }
+  
 
-  }
 
-  @media only screen and (min-width: 1700px) {
-    .panel.left {
-        margin-left:350px;
-        margin-top:294px;
-      }
-
-  }
-  @media only screen and (min-width: 1800px) {
-    .panel.left {
-        margin-left:390px;
-        margin-top:294px;
-      }
-
-  }@media only screen and (min-width: 1900px) {
-    .panel.left {
-        margin-left:430px;
-        margin-top:294px;
-      }
-
-  }
-  @media only screen and (min-width: 2000px) {
-    .panel.left {
-        margin-left:470px;
-        margin-top:294px;
-      }
-
-  }
-*/
 
   .project-3{
     width:100%;
@@ -1651,7 +1632,7 @@
   #about-me-container {
     width: 90%;
     margin: auto;
-    margin-top:0;
+    margin-top:200px;;
     font-family: montserrat;
   }
   .body-top { 
@@ -1785,6 +1766,7 @@
   }
   .about-p {
     color:rgb(219, 219, 74);
+    font-size: medium;
   
   }
   .about-me-p {
@@ -1941,8 +1923,24 @@
     color:white;
   }
   .wrapper{
-    margin-bottom:900px;
+    margin-bottom:500px;
     margin-top:600px;
-    position:fixed;
+   
   }
 
+.header-for-sub-pages{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 22;
+  display: block;
+  justify-content: center;
+  position:fixed;
+  width:100%;
+  height:10vh;
+  margin-bottom:520px;
+}
